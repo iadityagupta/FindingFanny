@@ -14,7 +14,7 @@ except Exception as e:
     st.error(f"An error occurred while loading the data: {e}")
     st.stop()
 
-st.header("Movie Recommender System")
+st.header("FindingFanny recommender System")
 
 selectvalue = st.selectbox("Select a movie from the dropdown", movies_list)
 
